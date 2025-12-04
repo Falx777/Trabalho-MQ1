@@ -1,7 +1,17 @@
 # CÓDIGO TRABALHO
 # Análise exploratória das tarifas comerciais dos Estados Unidos sobre as exportações brasileira: uma análise de série interrompida e ARIMA
 
-#Mude o diretório no seu arquivo para a pasta onde estão as planilhas!
+#1.Mude o diretório no seu arquivo para a pasta onde estão as planilhas!
+#2.Acesse o site para baixar as planilhas dos dados de 2015 a 2025:
+#  Base de dados detalhada por Município da empresa exportadora/importadora e Posição do Sistema Harmonizado (SH4)
+#  https://www.gov.br/mdic/pt-br/assuntos/comercio-exterior/estatisticas/base-de-dados-bruta
+#3. Tenha as seguintes pastas no mesmo diretório do arquivo: 
+#  planilhas/paises/estatisticas
+#  planilhas/paises/its paises
+#  planilhas/paises/residuos
+#  planilhas/produtos/estatisticas
+#  planilhas/produtos/its paises
+#  planilhas/produtos/residuos
 
 meu.diretorio <- "L:/Arquivo/planilhas"
 setwd("L:/Arquivo/planilhas")
